@@ -8,9 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <EmbeddedResource Include="*\input.txt">
-		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-	  </EmbeddedResource>
+	<None Include="Day*\input*.txt"></None>
+	<EmbeddedResource Include="Day*\input.txt;">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	</EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
