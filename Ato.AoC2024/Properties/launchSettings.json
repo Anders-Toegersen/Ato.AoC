@@ -2,7 +2,7 @@
   "profiles": {
     "Ato.AoC2024": {
       "commandName": "Project",
-      "commandLineArgs": "day5"
+      "commandLineArgs": "day6"
     }
   }
 }
