@@ -30,7 +30,7 @@ public class BridgeRepair : IProblem
         return validCalibrationsSum.ToString();
     }
 
-    private bool HasSolution(long target, long[] elements) 
+    private static bool HasSolution(long target, long[] elements) 
         => elements switch
         {
             [var first, var second, .. var rest] when first <= target
@@ -40,7 +40,7 @@ public class BridgeRepair : IProblem
             _ => false
         };
 
-    private bool HasSolutionWithConcatenation(long target, long[] elements) 
+    private static bool HasSolutionWithConcatenation(long target, long[] elements) 
         => elements switch
         {
             [var first, var second, .. var rest] when first <= target

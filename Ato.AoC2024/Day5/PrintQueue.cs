@@ -21,8 +21,8 @@ public class PrintQueue : IProblem
             .Select(x => x.Split(','));
 
         return updates
-            .Where(x => isValid(validBefore, validAfter, x))
-            .Sum(middlePageNumber)
+            .Where(x => IsValid(validBefore, validAfter, x))
+            .Sum(MiddlePageNumber)
             .ToString();
     }
 
@@ -45,15 +45,15 @@ public class PrintQueue : IProblem
             .Select(x => x.Split(','));
 
         return updates
-            .Where(x => !isValid(validBefore, validAfter, x))
+            .Where(x => !IsValid(validBefore, validAfter, x))
             .Select(x => x
                 .Order(Comparer<string>.Create((x, y) => OrderUpdates(validBefore, x, y)))
                 .ToArray())
-            .Sum(middlePageNumber)
+            .Sum(MiddlePageNumber)
             .ToString();
     }
 
-    private bool isValid(
+    private static bool IsValid(
         ILookup<string, string> before, 
         ILookup<string, string> after, 
         string[] update)
@@ -76,7 +76,7 @@ public class PrintQueue : IProblem
         return true;
     }
 
-    private int middlePageNumber(string[] update) 
+    private int MiddlePageNumber(string[] update) 
         => int.Parse(update[update.Length / 2]);
 
     private static int OrderUpdates(

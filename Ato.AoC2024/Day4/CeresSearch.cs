@@ -64,7 +64,7 @@ public class CeresSearch : IProblem
         (1, 1),
     ];
 
-    private bool SearchXmas(
+    private static bool SearchXmas(
         char[][] fields, 
         (int, int) index,
         (int, int) direction)
@@ -86,7 +86,7 @@ public class CeresSearch : IProblem
         };
     }
 
-    private int SearchCrossMas(
+    private static int SearchCrossMas(
         char[][] fields, 
         (int, int) index)
     {

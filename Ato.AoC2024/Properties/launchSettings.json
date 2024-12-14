@@ -1,8 +1,7 @@
 {
-  "profiles": {
-    "Ato.AoC2024": {
-      "commandName": "Project",
-      "commandLineArgs": "day8"
+    "profiles": {
+        "Ato.AoC2024": {
+            "commandName": "Project"
+        }
     }
-  }
 }
