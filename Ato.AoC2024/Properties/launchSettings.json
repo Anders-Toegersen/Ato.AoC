@@ -2,6 +2,10 @@
     "profiles": {
         "Ato.AoC2024": {
             "commandName": "Project"
+        },
+        "Ato.AoC2024.Day": {
+            "commandName": "Project",
+            "commandLineArgs": "day8"
         }
     }
 }
