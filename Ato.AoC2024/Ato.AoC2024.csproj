@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-	<None Include="Day*\input*.txt"></None>
-	<EmbeddedResource Include="Day*\input.txt;">
+	<None Remove="**\input*.txt"></None>
+	<EmbeddedResource Include="**\input*.txt;">
 	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 	</EmbeddedResource>
   </ItemGroup>
