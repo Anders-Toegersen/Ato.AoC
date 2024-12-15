@@ -5,7 +5,7 @@
         },
         "Ato.AoC2024.Day": {
             "commandName": "Project",
-            "commandLineArgs": "day8"
+            "commandLineArgs": "day9"
         }
     }
 }
