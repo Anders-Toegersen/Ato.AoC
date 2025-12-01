@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Ato.AoC2025": {
+      "commandName": "Project"
+    },
+    "Ato.AoC2025.Day": {
+      "commandName": "Project",
+      "commandLineArgs": "day01"
+    }
+  }
+}

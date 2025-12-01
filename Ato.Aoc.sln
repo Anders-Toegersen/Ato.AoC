@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11222.15 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ato.AoC2024", "Ato.AoC2024\Ato.AoC2024.csproj", "{A01314FF-7F7E-49F4-92F9-94CEC36D6BED}"
 EndProject
@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ato.AoC2025", "Ato.AoC2025\Ato.AoC2025.csproj", "{DCAAD436-7B94-4B15-B0FC-E0F16CF6A2EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +22,10 @@ Global
 		{A01314FF-7F7E-49F4-92F9-94CEC36D6BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A01314FF-7F7E-49F4-92F9-94CEC36D6BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A01314FF-7F7E-49F4-92F9-94CEC36D6BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAAD436-7B94-4B15-B0FC-E0F16CF6A2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAAD436-7B94-4B15-B0FC-E0F16CF6A2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAAD436-7B94-4B15-B0FC-E0F16CF6A2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAAD436-7B94-4B15-B0FC-E0F16CF6A2EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
