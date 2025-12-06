@@ -1,6 +1,6 @@
 # Advent of Code 2025
 
-![Stars](https://img.shields.io/badge/stars-6%2A-gold?logo=adventofcode) ![AI](https://img.shields.io/badge/clanker%20code-0%25-green?logo=claude)
+![Stars](https://img.shields.io/badge/stars-8%2A-gold?logo=adventofcode) ![AI](https://img.shields.io/badge/clanker%20code-0%25-green?logo=claude)
 
 To run use the following command:
 ```powershell
